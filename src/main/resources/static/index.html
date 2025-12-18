@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Demo Application</title>
+    <title>Spring Boot Demo</title>
     <style>
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
+        
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -17,32 +18,42 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            color: white;
+            padding: 20px;
         }
+        
         .container {
-            text-align: center;
-            padding: 2rem;
-            background: rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(10px);
+            background: white;
             border-radius: 20px;
-            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-            border: 1px solid rgba(255, 255, 255, 0.18);
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            max-width: 600px;
+            width: 100%;
         }
+        
         h1 {
-            font-size: 3rem;
-            margin-bottom: 1rem;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 2.5em;
         }
+        
         p {
-            font-size: 1.2rem;
-            opacity: 0.9;
+            color: #666;
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+        
+        .emoji {
+            font-size: 4em;
+            margin-bottom: 20px;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Welcome to Demo Application</h1>
-        <p>Spring Boot 애플리케이션이 정상적으로 실행되었습니다.</p>
+        <div class="emoji">🚀</div>
+        <h1>Spring Boot Demo</h1>
+        <p>환영합니다! Spring Boot 애플리케이션이 정상적으로 실행 중입니다.</p>
     </div>
 </body>
 </html>
